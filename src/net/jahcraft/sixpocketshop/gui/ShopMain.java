@@ -34,21 +34,21 @@ public class ShopMain {
 		
 		// FishShop
 		
-		item.setType(Material.valueOf(Main.data.getItemConfig().getString("shops.main.FishShop.Material")));
-		meta.setDisplayName(ChatColor.of(Main.data.getItemConfig().getString("shops.FishExchangeColor")) + "" + ChatColor.BOLD + Main.data.getItemConfig().getString("shops.main.FishShop.DisplayName"));
-		lore.set(0, ChatColor.GRAY + "Click to exchange your caught fish!");
-		meta.setLore(lore);
-		item.setItemMeta(meta);
-		inv.setItem(4, item);
+//		item.setType(Material.valueOf(Main.data.getItemConfig().getString("shops.main.FishShop.Material")));
+//		meta.setDisplayName(ChatColor.of(Main.data.getItemConfig().getString("shops.FishExchangeColor")) + "" + ChatColor.BOLD + Main.data.getItemConfig().getString("shops.main.FishShop.DisplayName"));
+//		lore.set(0, ChatColor.GRAY + "Click to exchange your caught fish!");
+//		meta.setLore(lore);
+//		item.setItemMeta(meta);
+//		inv.setItem(4, item);
 		
 		// PeltShop
 		
-		item.setType(Material.LEATHER);
-		meta.setDisplayName(ChatColor.of("#DD7700") + "" + ChatColor.BOLD + "Animal Pelt Exchange");
-		lore.set(0, ChatColor.GRAY + "Click to exchange your animal hides!");
-		meta.setLore(lore);
-		item.setItemMeta(meta);
-		inv.setItem(22, item);
+//		item.setType(Material.LEATHER);
+//		meta.setDisplayName(ChatColor.of("#DD7700") + "" + ChatColor.BOLD + "Animal Pelt Exchange");
+//		lore.set(0, ChatColor.GRAY + "Click to exchange your animal hides!");
+//		meta.setLore(lore);
+//		item.setItemMeta(meta);
+//		inv.setItem(22, item);
 				
 		// Shop1
 		
