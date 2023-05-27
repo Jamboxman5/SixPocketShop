@@ -1,0 +1,945 @@
+##############################
+# SIXPOCKETSHOP CHARGEMASTER #
+##############################
+#
+# Format:
+#
+# <ItemName>: <BuyPrice> <SellPrice>
+#
+################################################
+
+Prices:
+  NETHERITE_BLOCK:
+    buy: 15000
+    sell: 7500
+  NETHERITE_INGOT:
+    buy: 1000
+    sell: 500
+  ANCIENT_DEBRIS:
+    buy: 260
+    sell: 130
+  NETHERITE_SCRAP:
+    buy: 300
+    sell: 150   
+  IRON_BLOCK:
+    buy: 200
+    sell: 100
+  IRON_INGOT:
+    buy: 20
+    sell: 10
+  RAW_IRON_BLOCK:
+    buy: 100
+    sell: 50
+  RAW_IRON:
+    buy: 10
+    sell: 5
+  DIAMOND_BLOCK:
+    buy: 1500
+    sell: 750
+  DIAMOND:
+    buy: 150
+    sell: 75
+  GOLD_BLOCK:
+    buy: 500
+    sell: 250
+  GOLD_INGOT:
+    buy: 50
+    sell: 25
+  RAW_GOLD_BLOCK:
+    buy: 250
+    sell: 125
+  RAW_GOLD:
+    buy: 25
+    sell: 12.50
+  COPPER_BLOCK:
+    buy: 80
+    sell: 40
+  COPPER_INGOT:
+    buy: 8
+    sell: 4
+  RAW_COPPER_BLOCK:
+    buy: 40
+    sell: 20
+  RAW_COPPER:
+    buy: 4
+    sell: 2
+  OBSIDIAN:
+    buy: 200
+    sell: 100
+  EMERALD_BLOCK:
+    buy: 1000
+    sell: 500
+  EMERALD:
+    buy: 100
+    sell: 50
+  LAPIS_BLOCK:
+    buy: 120
+    sell: 60
+  LAPIS_LAZULI:
+    buy: 12
+    sell: 6
+  REDSTONE_BLOCK:
+    buy: 80
+    sell: 40
+  REDSTONE:
+    buy: 8
+    sell: 4
+  COAL_BLOCK:
+    buy: 100
+    sell: 50
+  COAL:
+    buy: 10
+    sell: 5
+  COAL_ORE:
+    buy: 5
+    sell: 2.5
+  DEEPSLATE_COAL_ORE:
+    buy: 5
+    sell: 2.5
+  COPPER_ORE:
+    buy: 6
+    sell: 3
+  DEEPSLATE_COPPER_ORE:
+    buy: 6
+    sell: 3
+  IRON_ORE:
+    buy: 8
+    sell: 4
+  DEEPSLATE_IRON_ORE:
+    buy: 8
+    sell: 4
+  GOLD_ORE:
+    buy: 20
+    sell: 10
+  DEEPSLATE_GOLD_ORE:
+    buy: 20
+    sell: 10
+  LAPIS_ORE:
+    buy: 120
+    sell: 60
+  DEEPSLATE_LAPIS_ORE:
+    buy: 120
+    sell: 60
+  REDSTONE_ORE:
+    buy: 140
+    sell: 70
+  DEEPSLATE_REDSTONE_ORE:
+    buy: 140
+    sell: 70
+  EMERALD_ORE:
+    buy: 400
+    sell: 200
+  DEEPSLATE_EMERALD_ORE:
+    buy: 400
+    sell: 200
+  DIAMOND_ORE:
+    buy: 500
+    sell: 250
+  DEEPSLATE_DIAMOND_ORE:
+    buy: 500
+    sell: 250
+  NETHER_QUARTZ_ORE:
+    buy: 30
+    sell: 15
+  NETHER_GOLD_ORE:
+    buy: 30
+    sell: 15
+    
+################################################################################
+#
+#    Mob Drops
+#
+################################################################################
+
+  ROTTEN_FLESH:
+    buy: .2
+    sell: 0.1
+  BONE:
+    buy: 1
+    sell: 0.5
+  STRING:
+    buy: .5 
+    sell: 0.25
+  SPIDER_EYE:
+    buy: .5
+    sell: 0.25
+  ARROW:
+    buy: 5
+    sell: 1.25
+  PHANTOM_MEMBRANE:
+    buy: 100
+    sell: 50
+  FEATHER:
+    buy: .5
+    sell: 0.25
+  EGG:
+    buy: 3
+    sell: 1
+  LEATHER:
+    buy: 10
+    sell: 0.5
+  RABBIT_HIDE:
+    buy: 3
+    sell: .1
+  SLIME_BALL:
+    buy: 50
+    sell: 15
+  INK_SAC:
+    buy: 50
+    sell: 15
+  ENDER_PEARL:
+    buy: 30 
+    sell: 1
+  BLAZE_ROD:
+    buy: 40
+    sell: .75
+  PRISMARINE_SHARD:
+    buy: 5
+    sell: 2
+  PRISMARINE_CRYSTALS:
+    buy: 10
+    sell: 4
+  NAUTILUS_SHELL:
+    buy: 1000
+    sell: 200
+  SPONGE:
+    buy: 500
+    sell: 50
+  SHULKER_SHELL:
+    buy: 750
+    sell: 200
+  ZOMBIE_HEAD:
+    buy: 30000
+    sell: 15000
+  SKELETON_SKULL:
+    buy: 30000
+    sell: 15000
+  CREEPER_HEAD:
+    buy: 30000
+    sell: 15000
+  DRAGON_HEAD:
+    buy: 2000
+    sell: 1000
+  WITHER_SKELETON_SKULL:
+    buy: 3000
+    sell: 1500
+  SCUTE:
+    buy: 500
+    sell: 200
+  GUNPOWDER:
+    buy: 10
+    sell: 1
+  RABBIT_FOOT:
+    buy: 500
+    sell: 200
+  GHAST_TEAR:
+    buy: 750
+    sell: 300
+  ECHO_SHARD:
+    buy: 750
+    sell: 250
+  DISC_FRAGMENT_5:
+    buy: 800
+    sell: 300
+  HEART_OF_THE_SEA:
+    buy: 3000
+    sell: 1000
+  NETHER_STAR:
+    buy: 30000
+    sell: 12000
+  EXPERIENCE_BOTTLE:
+    buy: 300
+    sell: 150
+  TOTEM_OF_UNDYING:
+    buy: 30000
+    sell: 12000
+  TRIDENT:
+    buy: 20000
+    sell: 10000
+  DRAGON_BREATH:
+    buy: 1000
+    sell: 300
+  ENCHANTED_GOLDEN_APPLE:
+    buy: 20000
+    sell: 1000
+  SADDLE:
+    buy: 1000
+    sell: 300
+  WITHER_ROSE:
+    buy: 500
+    sell: 200
+  ELYTRA:
+    buy: 8000
+    sell: 2500
+  BELL:
+    buy: 400
+    sell: 150
+  CRYING_OBSIDIAN:
+    buy: 400
+    sell: 200
+  STONE:
+    buy: 1
+    sell: .5
+  COBBLESTONE:
+    buy: .25
+    sell: .125
+  GRANITE:
+    buy: 1
+    sell: .5
+  DIORITE:
+    buy: 1
+    sell: .5
+  ANDESITE:
+    buy: 1
+    sell: .5
+  DEEPSLATE:
+    buy: 1
+    sell: .5
+  DIRT:
+    buy: .25
+    sell: .125
+  SAND:
+    buy: .25
+    sell: .125
+  GRAVEL:
+    buy: .25
+    sell: .125
+  RED_SAND:
+    buy: 1
+    sell: .5
+  OAK_LOG:
+    buy: 6
+    sell: 3
+  SPRUCE_LOG:
+    buy: 6
+    sell: 3
+  BIRCH_LOG:
+    buy: 6
+    sell: 3
+  JUNGLE_LOG:
+    buy: 6
+    sell: 3
+  ACACIA_LOG:
+    buy: 6
+    sell: 3
+  DARK_OAK_LOG:
+    buy: 6
+    sell: 3
+  MANGROVE_LOG:
+    buy: 6
+    sell: 3
+  CRIMSON_STEM:
+    buy: 6
+    sell: 3
+  WARPED_STEM:
+    buy: 6
+    sell: 3
+  SANDSTONE:
+    buy: 1
+    sell: .5
+  WHITE_WOOL:
+    buy: 15
+    sell: 5
+  BRICKS:
+    buy: 10
+    sell: 5
+  NETHERRACK:
+    buy: .25
+    sell: .125
+  SNOW_BLOCK:
+    buy: 2
+    sell: 1
+  CLAY:
+    buy: 5
+    sell: 2.5
+  SOUL_SAND:
+    buy: 1
+    sell: .5
+  SOUL_SOIL:
+    buy: 1
+    sell: .5
+  BASALT:
+    buy: 1
+    sell: .5
+  NETHER_BRICKS:
+    buy: 20
+    sell: 10
+  END_STONE:
+    buy: 1
+    sell: .5
+  QUARTZ_BLOCK:
+    buy: 25
+    sell: 12.5
+  TERRACOTTA:
+    buy: 5
+    sell: 2.5
+  PRISMARINE: 
+    buy: 25
+    sell: 12.50
+  SEA_LANTERN:
+    buy: 100
+    sell: 50
+  PRISMARINE_BRICKS: 
+    buy: 50
+    sell: 25
+  DARK_PRISMARINE:
+    buy: 75
+    sell: 37.5
+  RED_SANDSTONE: 
+    buy: 5
+    sell: 2.5
+  MAGMA_BLOCK:
+    buy: 10
+    sell: 5
+  BLACKSTONE: 
+    buy: 10
+    sell: 5
+  GLASS:
+    buy: 1
+    sell: .5
+  GRASS_BLOCK:
+    buy: 5
+    sell: 1
+  MYCELIUM:
+    buy: 10
+    sell: 2.50
+  PODZOL:
+    buy: 10
+    sell: 2.50
+  PURPUR_BLOCK:
+    buy: 25
+    sell: 12.50
+  GLOWSTONE:
+    buy: 50
+    sell: 25
+  APPLE:
+    buy: 5
+    sell: 1
+  MUSHROOM_STEW:
+    buy: 50
+    sell: 10
+  BREAD:
+    buy: 15
+    sell: 3
+  CAKE:
+    buy: 100
+    sell: 50
+  COOKIE:
+    buy: 10
+    sell: 1
+  BEETROOT_SOUP:
+    buy: 40
+    sell: 5
+  MELON_SLICE:
+    buy: 20
+    sell: 1
+  DRIED_KELP:
+    buy: 20
+    sell: 1
+  BEETROOT:
+    buy: 5
+    sell: 1
+  CARROT:
+    buy: 5
+    sell: 1
+  POTATO:
+    buy: 5
+    sell: 1
+  SWEET_BERRIES:
+    buy: 5
+    sell: 1
+  GLOW_BERRIES:
+    buy: 5
+    sell: 1
+  HONEY_BOTTLE:
+    buy: 25
+    sell: 5
+  BAKED_POTATO: 
+    buy: 25
+    sell: 2
+  RABBIT_STEW:
+    buy: 100
+    sell: 20
+  PUMPKIN_PIE:
+    buy: 100
+    sell: 20
+  PORKCHOP:
+    buy: 25
+    sell: 5
+  BEEF:
+    buy: 25
+    sell: 5
+  RABBIT:
+    buy: 25
+    sell: 5
+  CHICKEN:
+    buy: 25
+    sell: 5
+  COD:
+    buy: 25
+    sell: 5
+  SALMON:
+    buy: 25
+    sell: 5
+  COOKED_PORKCHOP:
+    buy: 50
+    sell: 10
+  COOKED_BEEF:
+    buy: 50
+    sell: 10
+  COOKED_RABBIT:
+    buy: 50
+    sell: 10
+  COOKED_CHICKEN:
+    buy: 50
+    sell: 10
+  COOKED_COD:
+    buy: 50
+    sell: 10
+  COOKED_SALMON:
+    buy: 50
+    sell: 10
+  GOLDEN_APPLE:
+    buy: 2000
+    sell: 225
+  MUTTON:
+    buy: 25
+    sell: 5
+  COOKED_MUTTON:
+    buy: 50
+    sell: 10
+  ORANGE_WOOL:
+    buy: 15
+    sell: 5
+  MAGENTA_WOOL:
+    buy: 15
+    sell: 5
+  LIGHT_BLUE_WOOL:
+    buy: 15
+    sell: 5
+  YELLOW_WOOL:
+    buy: 15
+    sell: 5
+  LIME_WOOL:
+    buy: 15
+    sell: 5
+  PINK_WOOL:
+    buy: 15
+    sell: 5
+  GRAY_WOOL:
+    buy: 15
+    sell: 5
+  LIGHT_GRAY_WOOL:
+    buy: 15
+    sell: 5
+  CYAN_WOOL:
+    buy: 15
+    sell: 5
+  PURPLE_WOOL:
+    buy: 15
+    sell: 5
+  BLUE_WOOL:
+    buy: 15
+    sell: 5
+  BROWN_WOOL:
+    buy: 15
+    sell: 5
+  GREEN_WOOL:
+    buy: 15
+    sell: 5
+  RED_WOOL:
+    buy: 15
+    sell: 5
+  BLACK_WOOL:
+    buy: 15
+    sell: 5
+  WHITE_DYE:
+    buy: 5
+    sell: 0.50
+  ORANGE_DYE:
+    buy: 5
+    sell: 2.50
+  MAGENTA_DYE:
+    buy: 5
+    sell: 2.50
+  LIGHT_BLUE_DYE:
+    buy: 5
+    sell: 2.50
+  YELLOW_DYE:
+    buy: 5
+    sell: 2.50
+  LIME_DYE:
+    buy: 5
+    sell: 2.50
+  PINK_DYE:
+    buy: 5
+    sell: 2.50
+  GRAY_DYE:
+    buy: 5
+    sell: 2.50
+  LIGHT_GRAY_DYE:
+    buy: 5
+    sell: 2.50
+  CYAN_DYE:
+    buy: 5
+    sell: 2.50
+  PURPLE_DYE:
+    buy: 5
+    sell: 2.50
+  BLUE_DYE:
+    buy: 5
+    sell: 2.50
+  BROWN_DYE:
+    buy: 5
+    sell: 2.50
+  GREEN_DYE:
+    buy: 5
+    sell: 2.50
+  RED_DYE:
+    buy: 5
+    sell: 2.50
+  BLACK_DYE:
+    buy: 5
+    sell: 2.50
+  DANDELION:
+    buy: 8
+    sell: 2
+  POPPY:
+    buy: 8
+    sell: 2
+  BLUE_ORCHID:
+    buy: 8
+    sell: 2
+  ALLIUM:
+    buy: 8
+    sell: 2
+  AZURE_BLUET:
+    buy: 8
+    sell: 2
+  RED_TULIP:
+    buy: 8
+    sell: 2
+  ORANGE_TULIP:
+    buy: 8
+    sell: 2
+  WHITE_TULIP:
+    buy: 8
+    sell: 2
+  PINK_TULIP:
+    buy: 8
+    sell: 2
+  CORNFLOWER:
+    buy: 8
+    sell: 2
+  OXEYE_DAISY:
+    buy: 8
+    sell: 2
+  LILY_OF_THE_VALLEY:
+    buy: 8
+    sell: 2
+  SUNFLOWER:
+    buy: 8
+    sell: 1
+  WHEAT_SEEDS:
+    buy: .5
+    sell: .25
+  PUMPKIN_SEEDS:
+    buy: .5
+    sell: .25
+  MELON_SEEDS:
+    buy: .5
+    sell: .25
+  BEETROOT_SEEDS:
+    buy: .5
+    sell: .25
+  COCOA_BEANS:
+    buy: 1
+    sell: .5
+  NETHER_WART:
+    buy: 25
+    sell: 5
+  WHEAT:
+    buy: 5
+    sell: 1
+  PUMPKIN:
+    buy: 20
+    sell: 5
+  MELON:
+    buy: 20
+    sell: 5
+  CHORUS_FRUIT:
+    buy: 10
+    sell: 2
+  POISONOUS_POTATO:
+    buy: 40
+    sell: 20
+  HAY_BLOCK:
+    buy: 50
+    sell: 10
+  SEAGRASS:
+    buy: 10
+    sell: 1
+  GRASS:
+    buy: 5
+    sell: .5
+  FERN:
+    buy: 20
+    sell: 10
+  OAK_SAPLING:
+    buy: 5
+    sell: 1
+  SPRUCE_SAPLING:
+    buy: 5
+    sell: 1
+  BIRCH_SAPLING:
+    buy: 5
+    sell: 1
+  JUNGLE_SAPLING:
+    buy: 5
+    sell: 1
+  ACACIA_SAPLING:
+    buy: 5
+    sell: 1
+  DARK_OAK_SAPLING:
+    buy: 5
+    sell: 1
+  MANGROVE_PROPAGULE:
+    buy: 5
+    sell: 1
+  SEA_PICKLE:
+    buy: 50
+    sell: 10
+  SPORE_BLOSSOM:
+    buy: 50
+    sell: 10
+  BROWN_MUSHROOM:
+    buy: 20
+    sell: 5
+  RED_MUSHROOM:
+    buy: 20
+    sell: 5
+  WARPED_FUNGUS:
+    buy: 20
+    sell: 5
+  CRIMSON_FUNGUS:
+    buy: 20
+    sell: 5
+  WEEPING_VINES:
+    buy: 15
+    sell: 3
+  TWISTING_VINES:
+    buy: 15
+    sell: 3
+  VINE:
+    buy: 15
+    sell: 3
+  BONE_MEAL:
+    buy: 3
+    sell: .25
+  SUGAR_CANE:
+    buy: 5
+    sell: .5
+  TALL_GRASS:
+    buy: 10
+    sell: 2
+  KELP:
+    buy: 5
+    sell: .5
+  BAMBOO:
+    buy: 8
+    sell: 2
+  GLOW_LICHEN:
+    buy: 20
+    sell: 5
+  LILY_PAD:
+    buy: 40
+    sell: 5
+  CACTUS:
+    buy: 10
+    sell: 1
+  LILAC:
+    buy: 30
+    sell: 2
+  ROSE_BUSH:
+    buy: 30
+    sell: 2
+  PEONY:
+    buy: 30
+    sell: 2
+  GLOWSTONE_DUST:
+    buy: 10
+    sell: 4
+  FERMENTED_SPIDER_EYE:
+    buy: 15
+    sell: 5
+  BREWING_STAND:
+    buy: 200
+    sell: 50
+  CAULDRON:
+    buy: 150
+    sell: 50
+  PUFFERFISH:
+    buy: 50
+    sell: 20
+  BLAZE_POWDER:
+    buy: 20
+    sell: .25
+  SUGAR:
+    buy: 2
+    sell: .5
+  MAGMA_CREAM:
+    buy: 200
+    sell: 50
+  GLISTERING_MELON_SLICE:
+    buy: 100
+    sell: 15
+  GOLDEN_CARROT:
+    buy: 150
+    sell: 50
+  GLASS_BOTTLE:
+    buy: 5
+    sell: .5
+  TURTLE_HELMET:
+    buy: 2500
+    sell: 500
+  MUSIC_DISC_BLOCKS:
+    buy: 10000
+    sell: 500
+  MUSIC_DISC_CHIRP:
+    buy: 10000
+    sell: 500
+  MUSIC_DISC_FAR:
+    buy: 10000
+    sell: 500
+  MUSIC_DISC_MALL:
+    buy: 10000
+    sell: 500
+  MUSIC_DISC_MELLOHI:
+    buy: 10000
+    sell: 500
+  MUSIC_DISC_STAL:
+    buy: 10000
+    sell: 500
+  MUSIC_DISC_STRAD:
+    buy: 10000
+    sell: 500
+  MUSIC_DISC_WARD:
+    buy: 10000
+    sell: 500
+  MUSIC_DISC_11:
+    buy: 10000
+    sell: 500
+  MUSIC_DISC_WAIT:
+    buy: 10000
+    sell: 500
+  MUSIC_DISC_OTHERSIDE:
+    buy: 10000
+    sell: 500
+  MUSIC_DISC_5:
+    buy: 10000
+    sell: 2000
+  MUSIC_DISC_PIGSTEP:
+    buy: 10000
+    sell: 2000
+  FLOWER_BANNER_PATTERN:
+    buy: 10000
+    sell: 4000
+  CREEPER_BANNER_PATTERN:
+    buy: 10000
+    sell: 4000
+  SKULL_BANNER_PATTERN:
+    buy: 10000
+    sell: 4000
+  MOJANG_BANNER_PATTERN:
+    buy: 10000
+    sell: 4000
+  GLOBE_BANNER_PATTERN:
+    buy: 10000
+    sell: 4000
+  PIGLIN_BANNER_PATTERN:
+    buy: 10000
+    sell: 4000
+  MAP:
+    buy: 500
+    sell: 50
+  WRITABLE_BOOK:
+    buy: 500
+    sell: 50
+  PAPER:
+    buy: 5
+    sell: .5
+  CLAY_BALL:
+    buy: 2
+    sell: .5
+  BRICK:
+    buy: 4
+    sell: 1
+  NETHER_BRICK:
+    buy: 8
+    sell: 2
+  FLINT:
+    buy: 1
+    sell: .25
+  BOOK: 
+    buy: 75
+    sell: 20
+  IRON_HORSE_ARMOR:
+    buy: 1000
+    sell: 100
+  GOLDEN_HORSE_ARMOR:
+    buy: 2500
+    sell: 500
+  DIAMOND_HORSE_ARMOR:
+    buy: 5000
+    sell: 1000
+  LEATHER_HORSE_ARMOR:
+    buy: 500
+    sell: 50
+  EGG:
+    buy: 50
+    sell: 10
+  SNOWBALL:
+    buy: 1
+    sell: .1
+  LEAD:
+    buy: 150
+    sell: 50
+  ARMOR_STAND:
+    buy: 500
+    sell: 50
+  SHULKER_BOX:
+    buy: 5000
+    sell: 500
+  PAINTING:
+    buy: 100
+    sell: 10
+  ITEM_FRAME:
+    buy: 100
+    sell: 10
+  GLOW_ITEM_FRAME:
+    buy: 200
+    sell: 50
+  COMPASS:
+    buy: 50
+    sell: 20
+  CLOCK:
+    buy: 200
+    sell: 50
+  SPYGLASS:
+    buy: 1000
+    sell: 100
+  NAME_TAG:
+    buy: 1000
+    sell: 100
+  BUCKET:
+    buy: 100
+    sell: 25
+  JUKEBOX:
+    buy: 100
+    sell: 50
+  GLOW_INK_SAC:
+    buy: 100
+    sell: 20
+    
+  
+    

@@ -1,0 +1,1312 @@
+##############################################################
+#
+#      Six Pocket Shop Item Config
+#
+#      For prices see "ChargeMaster.yml"
+# 
+#      For a complete list of proper materials, see here:
+#      https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# 
+#      To disable a shop or slot, leave the material section completely blank.
+#
+##############################################################
+
+shops:
+
+  BorderMaterial: BLACK_STAINED_GLASS_PANE
+# BorderMaterial: DEFAULT-BROWN_STAINED_GLASS_PANE
+  FishBorderMaterial: BLUE_STAINED_GLASS_PANE
+# FishBorderMaterial: DEFAULT-BLUE_STAINED_GLASS_PANE
+  ShopTitleColor: "#49B3FF"
+# Color of the shop titles (default: green | #00AA00)
+  ItemNameColor: "#FFDF00"
+# Color of item display names (default: gold | #FFDF00)
+  FishExchangeColor: "#49B3FF"
+# Color of fish shop display name (default: Blue | #49B3FF)
+
+  main:
+    Title: JahShop
+    FishShop:
+      DisplayName: Fish Exchange
+      Material: FISHING_ROD
+    Slot1:
+      DisplayName: Mining & Ores
+      Material: DIAMOND_PICKAXE
+    Slot2:
+      DisplayName: Mob Drops
+      Material: BONE
+    Slot3:
+      DisplayName: Rare Items
+      Material: TOTEM_OF_UNDYING
+    Slot4:
+      DisplayName: Building Blocks
+      Material: COBBLESTONE
+    Slot5:
+      DisplayName: Brewing
+      Material: BREWING_STAND
+    Slot6:
+      DisplayName: Foodstuffs
+      Material: COOKED_BEEF
+    Slot7:
+      DisplayName: Wool & Dye
+      Material: ORANGE_WOOL
+    Slot8:
+      DisplayName: Farming Supplies
+      Material: HAY_BLOCK
+    Slot9:
+      DisplayName: Miscellaneous
+      Material: BOOK
+    
+  shop1:
+    Title: Mining
+    Page1:
+      Slot1:
+        DisplayName: Netherite Block
+        Material: NETHERITE_BLOCK
+      Slot2:
+        DisplayName: Netherite Ingot
+        Material: NETHERITE_INGOT
+      Slot3:
+        DisplayName: Ancient Debris
+        Material: ANCIENT_DEBRIS
+      Slot4:
+        DisplayName: Netherite Scrap
+        Material: NETHERITE_SCRAP
+      Slot5:
+        DisplayName: Iron Block
+        Material: IRON_BLOCK
+      Slot6:
+        DisplayName: Iron Ingot
+        Material: IRON_INGOT
+      Slot7:
+        DisplayName: Raw Iron Block
+        Material: RAW_IRON_BLOCK
+      Slot8:
+        DisplayName: Raw Iron
+        Material: RAW_IRON
+      Slot9:
+        DisplayName: Diamond Block
+        Material: DIAMOND_BLOCK
+      Slot10:
+        DisplayName: Gold Block
+        Material: GOLD_BLOCK
+      Slot11: 
+        DisplayName: Gold Ingot
+        Material: GOLD_INGOT
+      Slot12:
+        DisplayName: Raw Gold Block
+        Material: RAW_GOLD_BLOCK
+      Slot13:
+        DisplayName: Raw Gold
+        Material: RAW_GOLD
+      Slot14:
+        DisplayName: Copper Block
+        Material: COPPER_BLOCK
+      Slot15:
+        DisplayName: Copper Ingot
+        Material: COPPER_INGOT
+      Slot16:
+        DisplayName: Raw Copper Block
+        Material: RAW_COPPER_BLOCK
+      Slot17:
+        DisplayName: Raw Copper
+        Material: RAW_COPPER
+      Slot18:
+        DisplayName: Diamond
+        Material: DIAMOND
+      Slot19:
+        DisplayName: Emerald Block
+        Material: EMERALD_BLOCK
+      Slot20:
+        DisplayName: Emerald
+        Material: EMERALD
+      Slot21:
+        DisplayName: Lapis Block
+        Material: LAPIS_BLOCK
+      Slot22:
+        DisplayName: Lapis Lazuli
+        Material: LAPIS_LAZULI
+      Slot23:
+        DisplayName: Redstone Block
+        Material: REDSTONE_BLOCK
+      Slot24:
+        DisplayName: Redstone
+        Material: REDSTONE
+      Slot25:
+        DisplayName: Coal Block
+        Material: COAL_BLOCK
+      Slot26:
+        DisplayName: Coal
+        Material: COAL
+      Slot27:
+        DisplayName: Obsidian
+        Material: OBSIDIAN
+      Slot28:
+        DisplayName: Coal Ore
+        Material: COAL_ORE
+      Slot29:
+        DisplayName: Copper Ore
+        Material: COPPER_ORE
+      Slot30:
+        DisplayName: Iron Ore
+        Material: IRON_ORE
+      Slot31:
+        DisplayName: Gold Ore
+        Material: GOLD_ORE
+      Slot32:
+        DisplayName: Lapis Ore
+        Material: LAPIS_ORE
+      Slot33:
+        DisplayName: Redstone Ore
+        Material: REDSTONE_ORE
+      Slot34:
+        DisplayName: Emerald Ore
+        Material: EMERALD_ORE
+      Slot35:
+        DisplayName: Diamond Ore
+        Material: DIAMOND_ORE
+      Slot36:
+        DisplayName: Nether Gold Ore
+        Material: NETHER_GOLD_ORE
+      Slot37:
+        DisplayName: Deepslate Coal Ore
+        Material: DEEPSLATE_COAL_ORE
+      Slot38:
+        DisplayName: Deepslate Copper Ore
+        Material: DEEPSLATE_COPPER_ORE
+      Slot39:
+        DisplayName: Deepslate Iron Ore
+        Material: DEEPSLATE_IRON_ORE
+      Slot40:
+        DisplayName: Deepslate Gold Ore
+        Material: DEEPSLATE_GOLD_ORE
+      Slot41:
+        DisplayName: Deepslate Lapis Ore
+        Material: DEEPSLATE_LAPIS_ORE
+      Slot42:
+        DisplayName: Deepslate Redstone Ore
+        Material: DEEPSLATE_REDSTONE_ORE
+      Slot43:
+        DisplayName: Deepslate Emerald Ore
+        Material: DEEPSLATE_EMERALD_ORE
+      Slot44:
+        DisplayName: Deepslate Diamond Ore
+        Material: DEEPSLATE_DIAMOND_ORE
+      Slot45:
+        DisplayName: Nether Quartz Ore
+        Material: NETHER_QUARTZ_ORE
+    
+  shop2:
+    Title: Mob Drops
+    Page1:
+      Slot1:
+        DisplayName: Rotten Flesh
+        Material: ROTTEN_FLESH
+      Slot2:
+        DisplayName: Bone
+        Material: BONE
+      Slot3:
+        DisplayName: String
+        Material: STRING
+      Slot4:
+        DisplayName: Spider Eye
+        Material: SPIDER_EYE
+      Slot5:
+        DisplayName: Arrow
+        Material: ARROW
+      Slot6:
+        DisplayName: Phantom Membrane
+        Material: PHANTOM_MEMBRANE
+      Slot7:
+        DisplayName: Feather
+        Material: FEATHER
+      Slot8:
+        DisplayName: Leather
+        Material: LEATHER
+      Slot9:
+        DisplayName: Rabbit Hide
+        Material: RABBIT_HIDE
+      Slot10:
+        DisplayName: Slime Ball
+        Material: SLIME_BALL
+      Slot11:
+        DisplayName: Ink Sac
+        Material: INK_SAC
+      Slot12:
+        DisplayName: Glow Ink Sac
+        Material: GLOW_INK_SAC
+      Slot13:
+        DisplayName: Ender Pearl
+        Material: ENDER_PEARL
+      Slot14:
+        DisplayName: Blaze Rod
+        Material: BLAZE_ROD
+      Slot15:
+        DisplayName: Prismarine Shard
+        Material: PRISMARINE_SHARD
+      Slot16:
+        DisplayName: Prismarine Crystals
+        Material: PRISMARINE_CRYSTALS
+      Slot17:
+        DisplayName: Nautilus Shell
+        Material: NAUTILUS_SHELL
+      Slot18:
+        DisplayName: Sponge
+        Material: SPONGE
+      Slot19:
+        DisplayName: Shulker Shell
+        Material: SHULKER_SHELL
+      Slot20:
+        DisplayName: Zombie Head
+        Material: ZOMBIE_HEAD
+      Slot21:
+        DisplayName: Skeleton Skull
+        Material: SKELETON_SKULL
+      Slot22:
+        DisplayName: Creeper Head
+        Material: CREEPER_HEAD
+      Slot23:
+        DisplayName: Wither Skeleton Skull
+        Material: WITHER_SKELETON_SKULL
+      Slot24:
+        DisplayName: Ghast Tear
+        Material: GHAST_TEAR
+      Slot25:
+        DisplayName: Scute
+        Material: SCUTE
+      Slot26:
+        DisplayName: Gunpowder
+        Material: GUNPOWDER
+      Slot27:
+        DisplayName: Rabbit's Foot
+        Material: RABBIT_FOOT
+      Slot28:
+        DisplayName: 
+        Material: 
+      Slot29:
+        DisplayName:
+        Material:
+      Slot30:
+        DisplayName:
+        Material:
+      Slot31:
+        DisplayName:
+        Material:
+      Slot32:
+        DisplayName:
+        Material:
+      Slot33:
+        DisplayName:
+        Material:
+      Slot34:
+        DisplayName:
+        Material:
+      Slot35:
+        DisplayName:
+        Material:
+      Slot36:
+        DisplayName:
+        Material:
+      Slot37:
+        DisplayName:
+        Material:
+      Slot38:
+        DisplayName:
+        Material:
+      Slot39:
+        DisplayName:
+        Material:
+      Slot40:
+        DisplayName:
+        Material:
+      Slot41:
+        DisplayName:
+        Material:
+      Slot42:
+        DisplayName:
+        Material:
+      Slot43:
+        DisplayName:
+        Material:
+      Slot44:
+        DisplayName:
+        Material:
+      Slot45:
+        DisplayName:
+        Material:
+      
+  shop3:
+    Title: Rare Items
+    Page1:
+      Slot1:
+        DisplayName: Echo Shard
+        Material: ECHO_SHARD
+      Slot2:
+        DisplayName: Disc Fragment
+        Material: DISC_FRAGMENT_5
+      Slot3:
+        DisplayName: Heart of the Sea
+        Material: HEART_OF_THE_SEA
+      Slot4:
+        DisplayName: Nether Star
+        Material: NETHER_STAR
+      Slot5:
+        DisplayName: Bottle o' Enchanting
+        Material: EXPERIENCE_BOTTLE
+      Slot6:
+        DisplayName: Totem of Undying
+        Material: TOTEM_OF_UNDYING
+      Slot7:
+        DisplayName: Trident
+        Material: TRIDENT
+      Slot8:
+        DisplayName: Rabbit's Foot
+        Material: RABBIT_FOOT
+      Slot9:
+        DisplayName: Dragon's Breath
+        Material: DRAGON_BREATH
+      Slot10:
+        DisplayName: Sponge
+        Material: SPONGE
+      Slot11:
+        DisplayName: Enchanted Golden Apple
+        Material: ENCHANTED_GOLDEN_APPLE
+      Slot12:
+        DisplayName: Saddle
+        Material: SADDLE
+      Slot13:
+        DisplayName: Wither Rose
+        Material: WITHER_ROSE
+      Slot14:
+        DisplayName: Dragon Head
+        Material: DRAGON_HEAD
+      Slot15:
+        DisplayName: Elytra
+        Material: ELYTRA
+      Slot16:
+        DisplayName: Bell
+        Material: BELL
+      Slot17: 
+        DisplayName: Crying Obsidian
+        Material: CRYING_OBSIDIAN
+      Slot18:
+        DisplayName:
+        Material:
+      Slot19:
+        DisplayName:
+        Material:
+      Slot20:
+        DisplayName:
+        Material:
+      Slot21:
+        DisplayName:
+        Material:
+      Slot22:
+        DisplayName:
+        Material:
+      Slot23:
+        DisplayName:
+        Material:
+      Slot24:
+        DisplayName:
+        Material:
+      Slot25:
+        DisplayName:
+        Material:
+      Slot26:
+        DisplayName:
+        Material:
+      Slot27:
+        DisplayName:
+        Material:
+      Slot28:
+        DisplayName:
+        Material:
+      Slot29:
+        DisplayName:
+        Material:
+      Slot30:
+        DisplayName:
+        Material:
+      Slot31:
+        DisplayName:
+        Material:
+      Slot32:
+        DisplayName:
+        Material:
+      Slot33:
+        DisplayName:
+        Material:
+      Slot34:
+        DisplayName:
+        Material:
+      Slot35:
+        DisplayName:
+        Material:
+      Slot36:
+        DisplayName:
+        Material:
+      Slot37:
+        DisplayName:
+        Material:
+      Slot38:
+        DisplayName:
+        Material:
+      Slot39:
+        DisplayName:
+        Material:
+      Slot40:
+        DisplayName:
+        Material:
+      Slot41:
+        DisplayName:
+        Material:
+      Slot42:
+        DisplayName:
+        Material:
+      Slot43:
+        DisplayName:
+        Material:
+      Slot44:
+        DisplayName:
+        Material:
+      Slot45:
+        DisplayName:
+        Material:
+      
+  shop4:
+    Title: Building Blocks
+    Page1:
+      Slot1:
+        DisplayName: Stone
+        Material: STONE
+      Slot2:
+        DisplayName: Cobblestone
+        Material: COBBLESTONE
+      Slot3:
+        DisplayName: Granite
+        Material: GRANITE
+      Slot4:
+        DisplayName: Diorite
+        Material: DIORITE
+      Slot5:
+        DisplayName: Andesite
+        Material: ANDESITE
+      Slot6:
+        DisplayName: Deepslate
+        Material: DEEPSLATE
+      Slot7:
+        DisplayName: Dirt
+        Material: DIRT
+      Slot8:
+        DisplayName: Sand
+        Material: SAND
+      Slot9:
+        DisplayName: Gravel
+        Material: GRAVEL
+      Slot10:
+        DisplayName: Red Sand
+        Material: RED_SAND
+      Slot11:
+        DisplayName: Oak Log
+        Material: OAK_LOG
+      Slot12:
+        DisplayName: Spruce Log
+        Material: SPRUCE_LOG
+      Slot13:
+        DisplayName: Birch Log
+        Material: BIRCH_LOG
+      Slot14:
+        DisplayName: Jungle Log
+        Material: JUNGLE_LOG
+      Slot15:
+        DisplayName: Acacia Log
+        Material: ACACIA_LOG
+      Slot16:
+        DisplayName: Dark Oak Log
+        Material: DARK_OAK_LOG
+      Slot17:
+        DisplayName: Mangrove Log
+        Material: MANGROVE_LOG
+      Slot18:
+        DisplayName: Crimson Stem
+        Material: CRIMSON_STEM
+      Slot19:
+        DisplayName: Warped Stem
+        Material: WARPED_STEM
+      Slot20:
+        DisplayName: Sandstone
+        Material: SANDSTONE
+      Slot21:
+        DisplayName: White Wool
+        Material: WHITE_WOOL
+      Slot22:
+        DisplayName: Bricks
+        Material: BRICKS
+      Slot23:
+        DisplayName: Netherrack
+        Material: NETHERRACK
+      Slot24:
+        DisplayName: Snow Block
+        Material: SNOW_BLOCK
+      Slot25:
+        DisplayName: Clay
+        Material: CLAY
+      Slot26:
+        DisplayName: Soul Sand
+        Material: SOUL_SAND
+      Slot27:
+        DisplayName: Soul Soil
+        Material: SOUL_SOIL
+      Slot28:
+        DisplayName: Basalt
+        Material: BASALT
+      Slot29:
+        DisplayName: Nether Bricks
+        Material: NETHER_BRICKS
+      Slot30:
+        DisplayName: End Stone
+        Material: END_STONE
+      Slot31:
+        DisplayName: Quartz Block
+        Material: QUARTZ_BLOCK
+      Slot32:
+        DisplayName: Terracotta
+        Material: TERRACOTTA
+      Slot33:
+        DisplayName: Prismarine
+        Material: PRISMARINE
+      Slot34:
+        DisplayName: Prismarine Bricks
+        Material: PRISMARINE_BRICKS
+      Slot35:
+        DisplayName: Dark Prismarine
+        Material: DARK_PRISMARINE
+      Slot36:
+        DisplayName: Sea Lantern
+        Material: SEA_LANTERN
+      Slot37:
+        DisplayName: Red Sandstone
+        Material: RED_SANDSTONE
+      Slot38:
+        DisplayName: Magma Block
+        Material: MAGMA_BLOCK
+      Slot39:
+        DisplayName: Blackstone
+        Material: BLACKSTONE
+      Slot40:
+        DisplayName: Glass
+        Material: GLASS
+      Slot41:
+        DisplayName: Grass Block
+        Material: GRASS_BLOCK
+      Slot42:
+        DisplayName: Mycelium
+        Material: MYCELIUM
+      Slot43:
+        DisplayName: Podzol
+        Material: PODZOL
+      Slot44:
+        DisplayName: Purpur Block
+        Material: PURPUR_BLOCK
+      Slot45:
+        DisplayName: Glowstone
+        Material: GLOWSTONE
+      
+  shop5:
+    Title: Brewing
+    Page1:
+      Slot1:
+        DisplayName: Nether Wart
+        Material: NETHER_WART
+      Slot2:
+        DisplayName: Redstone Dust
+        Material: REDSTONE
+      Slot3:
+        DisplayName: Glowstone Dust
+        Material: GLOWSTONE_DUST
+      Slot4:
+        DisplayName: Gunpowder
+        Material: GUNPOWDER
+      Slot5:
+        DisplayName: Fermented Spider Eye
+        Material: FERMENTED_SPIDER_EYE
+      Slot6:
+        DisplayName: Spider Eye
+        Material: SPIDER_EYE
+      Slot7:
+        DisplayName: Brewing Stand
+        Material: BREWING_STAND
+      Slot8:
+        DisplayName: Cauldron
+        Material: CAULDRON
+      Slot9:
+        DisplayName: Dragon's Breath
+        Material: DRAGON_BREATH
+      Slot10:
+        DisplayName: Pufferfish
+        Material: PUFFERFISH
+      Slot11:
+        DisplayName: Blaze Powder
+        Material: BLAZE_POWDER
+      Slot12:
+        DisplayName: Blaze Rod
+        Material: BLAZE_ROD
+      Slot13:
+        DisplayName: Ghast Tear
+        Material: GHAST_TEAR
+      Slot14:
+        DisplayName: Sugar
+        Material: SUGAR
+      Slot15:
+        DisplayName: Magma Cream
+        Material: MAGMA_CREAM
+      Slot16:
+        DisplayName: Rabbit's Foot
+        Material: RABBIT_FOOT
+      Slot17:
+        DisplayName: Glistering Melon
+        Material: GLISTERING_MELON_SLICE
+      Slot18:
+        DisplayName: Phantom Membrane
+        Material: PHANTOM_MEMBRANE
+      Slot19:
+        DisplayName: Golden Carrot
+        Material: GOLDEN_CARROT
+      Slot20:
+        DisplayName: Glass Bottle
+        Material: GLASS_BOTTLE
+      Slot21:
+        DisplayName: Turtle Shell
+        Material: TURTLE_HELMET
+      Slot22:
+        DisplayName:
+        Material:
+      Slot23:
+        DisplayName:
+        Material:
+      Slot24:
+        DisplayName:
+        Material:
+      Slot25:
+        DisplayName:
+        Material:
+      Slot26:
+        DisplayName:
+        Material:
+      Slot27:
+        DisplayName:
+        Material:
+      Slot28:
+        DisplayName:
+        Material:
+      Slot29:
+        DisplayName:
+        Material:
+      Slot30:
+        DisplayName:
+        Material:
+      Slot31:
+        DisplayName:
+        Material:
+      Slot32:
+        DisplayName:
+        Material:
+      Slot33:
+        DisplayName:
+        Material:
+      Slot34:
+        DisplayName:
+        Material:
+      Slot35:
+        DisplayName:
+        Material:
+      Slot36:
+        DisplayName:
+        Material:
+      Slot37:
+        DisplayName:
+        Material:
+      Slot38:
+        DisplayName:
+        Material:
+      Slot39:
+        DisplayName:
+        Material:
+      Slot40:
+        DisplayName:
+        Material:
+      Slot41:
+        DisplayName:
+        Material:
+      Slot42:
+        DisplayName:
+        Material:
+      Slot43:
+        DisplayName:
+        Material:
+      Slot44:
+        DisplayName:
+        Material:
+      Slot45:
+        DisplayName:
+        Material:
+      
+  shop6:
+    Title: Foodstuffs
+    Page1:
+      Slot1:
+        DisplayName: Apple
+        Material: APPLE
+      Slot2:
+        DisplayName: Mushroom Stew
+        Material: MUSHROOM_STEW
+      Slot3:
+        DisplayName: Rabbit Stew
+        Material: RABBIT_STEW
+      Slot4:
+        DisplayName: Beetroot Soup
+        Material: BEETROOT_SOUP
+      Slot5:
+        DisplayName: Bread
+        Material: BREAD
+      Slot6:
+        DisplayName: Pumpkin Pie
+        Material: PUMPKIN_PIE
+      Slot7:
+        DisplayName: Cake
+        Material: CAKE
+      Slot8:
+        DisplayName: Cookie
+        Material: COOKIE
+      Slot9:
+        DisplayName: Baked Potato
+        Material: BAKED_POTATO
+      Slot10:
+        DisplayName: Potato
+        Material: POTATO
+      Slot11:
+        DisplayName: Carrot
+        Material: CARROT
+      Slot12:
+        DisplayName: Beetroot
+        Material: BEETROOT
+      Slot13:
+        DisplayName: Sweet Berries
+        Material: SWEET_BERRIES
+      Slot14:
+        DisplayName: Glow Berries
+        Material: GLOW_BERRIES
+      Slot15:
+        DisplayName: Honey Bottle
+        Material: HONEY_BOTTLE
+      Slot16:
+        DisplayName: Dried Kelp
+        Material: DRIED_KELP
+      Slot17:
+        DisplayName: Melon Slice
+        Material: MELON_SLICE
+      Slot18:
+        DisplayName: Golden Apple
+        Material: GOLDEN_APPLE
+      Slot19:
+        DisplayName: Raw Pork
+        Material: PORKCHOP
+      Slot20:
+        DisplayName: Raw Beef
+        Material: BEEF
+      Slot21:
+        DisplayName: Raw Chicken
+        Material: CHICKEN
+      Slot22: 
+        DisplayName: Raw Rabbit
+        Material: RABBIT
+      Slot23:
+        DisplayName: Raw Mutton
+        Material: MUTTON
+      Slot24:
+        DisplayName: Raw Cod
+        Material: COD
+      Slot25:
+        DisplayName: Raw Salmon
+        Material: SALMON
+      Slot26:
+        DisplayName: Cooked Pork
+        Material: COOKED_PORKCHOP
+      Slot27:
+        DisplayName: Cooked Beef
+        Material: COOKED_BEEF
+      Slot28:
+        DisplayName: Cooked Chicken
+        Material: COOKED_CHICKEN
+      Slot29:
+        DisplayName: Cooked Rabbit
+        Material: COOKED_RABBIT
+      Slot30:
+        DisplayName: Cooked Mutton
+        Material: COOKED_MUTTON
+      Slot31:
+        DisplayName: Cooked Cod
+        Material: COOKED_COD
+      Slot32:
+        DisplayName: Cooked Salmon
+        Material: COOKED_SALMON
+      Slot33:
+        DisplayName:
+        Material:
+      Slot34:
+        DisplayName:
+        Material:
+      Slot35:
+        DisplayName:
+        Material:
+      Slot36:
+        DisplayName:
+        Material:
+      Slot37:
+        DisplayName:
+        Material:
+      Slot38:
+        DisplayName:
+        Material:
+      Slot39:
+        DisplayName:
+        Material:
+      Slot40:
+        DisplayName:
+        Material:
+      Slot41:
+        DisplayName:
+        Material:
+      Slot42:
+        DisplayName:
+        Material:
+      Slot43:
+        DisplayName:
+        Material:
+      Slot44:
+        DisplayName:
+        Material:
+      Slot45:
+        DisplayName:
+        Material:
+  
+  shop7:
+    Title: Wool & Dye
+    Page1:
+      Slot1:
+        DisplayName: White Wool
+        Material: WHITE_WOOL
+      Slot2:
+        DisplayName: Orange Wool
+        Material: ORANGE_WOOL
+      Slot3:
+        DisplayName: Magenta Wool
+        Material: MAGENTA_WOOL
+      Slot4:
+        DisplayName: Light Blue Wool
+        Material: LIGHT_BLUE_WOOL
+      Slot5:
+        DisplayName: Yellow Wool
+        Material: YELLOW_WOOL
+      Slot6:
+        DisplayName: Lime Wool
+        Material: LIME_WOOL
+      Slot7:
+        DisplayName: Pink Wool
+        Material: PINK_WOOL
+      Slot8:
+        DisplayName: Gray Wool
+        Material: GRAY_WOOL
+      Slot9:
+        DisplayName: Light Gray Wool
+        Material: LIGHT_GRAY_WOOL
+      Slot10:
+        DisplayName: Cyan Wool
+        Material: CYAN_WOOL
+      Slot11:
+        DisplayName: Purple Wool
+        Material: PURPLE_WOOL
+      Slot12:
+        DisplayName: Blue Wool
+        Material: BLUE_WOOL
+      Slot13:
+        DisplayName: Brown Wool
+        Material: BROWN_WOOL
+      Slot14:
+        DisplayName: Green Wool
+        Material: GREEN_WOOL
+      Slot15:
+        DisplayName: Red Wool
+        Material: RED_WOOL
+      Slot16:
+        DisplayName: Black Wool
+        Material: BLACK_WOOL
+      Slot17:
+        DisplayName: White Dye
+        Material: WHITE_DYE
+      Slot18:
+        DisplayName: Orange Dye
+        Material: ORANGE_DYE
+      Slot19:
+        DisplayName: Magenta Dye
+        Material: MAGENTA_DYE
+      Slot20:
+        DisplayName: Light Blue Dye
+        Material: LIGHT_BLUE_DYE
+      Slot21:
+        DisplayName: Yellow Dye
+        Material: YELLOW_DYE
+      Slot22:
+        DisplayName: Lime Dye
+        Material: LIME_DYE
+      Slot23:
+        DisplayName: Pink Dye
+        Material: PINK_DYE
+      Slot24:
+        DisplayName: Gray Dye
+        Material: GRAY_DYE
+      Slot25:
+        DisplayName: Light Gray Dye
+        Material: LIGHT_GRAY_DYE
+      Slot26:
+        DisplayName: Cyan Dye
+        Material: CYAN_DYE
+      Slot27:
+        DisplayName: Purple Dye
+        Material: PURPLE_DYE
+      Slot28:
+        DisplayName: Blue Dye
+        Material: BLUE_DYE
+      Slot29:
+        DisplayName: Brown Dye
+        Material: BROWN_DYE
+      Slot30:
+        DisplayName: Green Dye
+        Material: GREEN_DYE
+      Slot31:
+        DisplayName: Red Dye
+        Material: RED_DYE
+      Slot32:
+        DisplayName: Black Dye
+        Material: BLACK_DYE
+      Slot33:
+        DisplayName: Dandelion
+        Material: DANDELION
+      Slot34:
+        DisplayName: Poppy
+        Material: POPPY
+      Slot35:
+        DisplayName: Blue Orchid
+        Material: BLUE_ORCHID
+      Slot36:
+        DisplayName: Allium
+        Material: ALLIUM
+      Slot37:
+        DisplayName: Azure Bluet
+        Material: AZURE_BLUET
+      Slot38:
+        DisplayName: Red Tulip
+        Material: RED_TULIP
+      Slot39:
+        DisplayName: Orange Tulip
+        Material: ORANGE_TULIP
+      Slot40:
+        DisplayName: White Tulip
+        Material: WHITE_TULIP
+      Slot41:
+        DisplayName: Pink Tulip
+        Material: PINK_TULIP
+      Slot42:
+        DisplayName: Cornflower
+        Material: CORNFLOWER
+      Slot43:
+        DisplayName: Oxeye Daisy
+        Material: OXEYE_DAISY
+      Slot44:
+        DisplayName: Lily of the Valley
+        Material: LILY_OF_THE_VALLEY
+      Slot45:
+        DisplayName: Sunflower
+        Material: SUNFLOWER
+    
+  shop8:
+    Title: Farming Supplies
+    Page1:
+      Slot1:
+        DisplayName: Wheat Seeds
+        Material: WHEAT_SEEDS
+      Slot2:
+        DisplayName: Pumpkin Seeds
+        Material: PUMPKIN_SEEDS
+      Slot3:
+        DisplayName: Melon Seeds
+        Material: MELON_SEEDS
+      Slot4:
+        DisplayName: Beetroot Seeds
+        Material: BEETROOT_SEEDS
+      Slot5:
+        DisplayName: Cocoa Beans
+        Material: COCOA_BEANS
+      Slot6:
+        DisplayName: Nether Wart
+        Material: NETHER_WART
+      Slot7:
+        DisplayName: Wheat
+        Material: WHEAT
+      Slot8:
+        DisplayName: Carrot
+        Material: CARROT
+      Slot9:
+        DisplayName: Potato
+        Material: POTATO
+      Slot10:
+        DisplayName: Sweet Berries
+        Material: SWEET_BERRIES
+      Slot11:
+        DisplayName: Pumpkin
+        Material: PUMPKIN
+      Slot12:
+        DisplayName: Melon
+        Material: MELON
+      Slot13:
+        DisplayName: Chorus Fruit
+        Material: CHORUS_FRUIT
+      Slot14:
+        DisplayName: Poisonous Potato
+        Material: POISONOUS_POTATO
+      Slot15:
+        DisplayName: Hay Bale
+        Material: HAY_BLOCK
+      Slot16:
+        DisplayName: Seagrass
+        Material: SEAGRASS
+      Slot17:
+        DisplayName: Grass
+        Material: GRASS
+      Slot18:
+        DisplayName: Fern
+        Material: FERN
+      Slot19:
+        DisplayName: Oak Sapling 
+        Material: OAK_SAPLING
+      Slot20:
+        DisplayName: Spruce Sapling 
+        Material: SPRUCE_SAPLING
+      Slot21:
+        DisplayName: Birch Sapling
+        Material: BIRCH_SAPLING
+      Slot22:
+        DisplayName: Jungle Sapling
+        Material: JUNGLE_SAPLING
+      Slot23:
+        DisplayName: Acacia Sapling
+        Material: ACACIA_SAPLING
+      Slot24:
+        DisplayName: Dark Oak Sapling
+        Material: DARK_OAK_SAPLING
+      Slot25:
+        DisplayName: Mangrove Propagule
+        Material: MANGROVE_PROPAGULE
+      Slot26:
+        DisplayName: Sea Pickle
+        Material: SEA_PICKLE
+      Slot27:
+        DisplayName: Spore Blossom
+        Material: SPORE_BLOSSOM
+      Slot28:
+        DisplayName: Brown Mushroom
+        Material: BROWN_MUSHROOM
+      Slot29:
+        DisplayName: Red Mushroom
+        Material: RED_MUSHROOM
+      Slot30:
+        DisplayName: Crimson Fungus
+        Material: CRIMSON_FUNGUS
+      Slot31:
+        DisplayName: Warped Fungus
+        Material: WARPED_FUNGUS
+      Slot32:
+        DisplayName: Weeping Vines
+        Material: WEEPING_VINES
+      Slot33:
+        DisplayName: Twisting Vines
+        Material: TWISTING_VINES
+      Slot34:
+        DisplayName: Vines 
+        Material: VINE
+      Slot35:
+        DisplayName: Bone Meal
+        Material: BONE_MEAL
+      Slot36:
+        DisplayName: Tall Grass
+        Material: TALL_GRASS
+      Slot37:
+        DisplayName: Sugar Cane
+        Material: SUGAR_CANE
+      Slot38:
+        DisplayName: Kelp
+        Material: KELP
+      Slot39:
+        DisplayName: Bamboo
+        Material: BAMBOO
+      Slot40:
+        DisplayName: Glow Lichen
+        Material: GLOW_LICHEN
+      Slot41:
+        DisplayName: Lily Pad
+        Material: LILY_PAD
+      Slot42:
+        DisplayName: Cactus
+        Material: CACTUS
+      Slot43:
+        DisplayName: Lilac
+        Material: LILAC
+      Slot44:
+        DisplayName: Rose Bush
+        Material: ROSE_BUSH
+      Slot45:
+        DisplayName: Peony
+        Material: PEONY
+    
+  shop9:
+    Title: Miscellaneous
+    Page1:
+      Slot1:
+        DisplayName: Blocks
+        Material: MUSIC_DISC_BLOCKS
+      Slot2:
+        DisplayName: Chirp
+        Material: MUSIC_DISC_CHIRP
+      Slot3:
+        DisplayName: Far
+        Material: MUSIC_DISC_FAR
+      Slot4:
+        DisplayName: Mall
+        Material: MUSIC_DISC_MALL
+      Slot5:
+        DisplayName: Mellohi
+        Material: MUSIC_DISC_MELLOHI
+      Slot6:
+        DisplayName: Stal
+        Material: MUSIC_DISC_STAL
+      Slot7:
+        DisplayName: Strad
+        Material: MUSIC_DISC_STRAD
+      Slot8:
+        DisplayName: Ward
+        Material: MUSIC_DISC_WARD
+      Slot9:
+        DisplayName: 11
+        Material: MUSIC_DISC_11
+      Slot10:
+        DisplayName: Wait
+        Material: MUSIC_DISC_WAIT
+      Slot11:
+        DisplayName: Otherside
+        Material: MUSIC_DISC_OTHERSIDE
+      Slot12:
+        DisplayName: 5
+        Material: MUSIC_DISC_5
+      Slot13:
+        DisplayName: Pigstep
+        Material: MUSIC_DISC_PIGSTEP
+      Slot14:
+        DisplayName: Flower Pattern
+        Material: FLOWER_BANNER_PATTERN
+      Slot15:
+        DisplayName: Creeper Pattern
+        Material: CREEPER_BANNER_PATTERN
+      Slot16:
+        DisplayName: Skull Pattern
+        Material: SKULL_BANNER_PATTERN
+      Slot17:
+        DisplayName: Thing Pattern
+        Material: MOJANG_BANNER_PATTERN
+      Slot18:
+        DisplayName: Globe Pattern
+        Material: GLOBE_BANNER_PATTERN
+      Slot19:
+        DisplayName: Snout Pattern
+        Material: PIGLIN_BANNER_PATTERN
+      Slot20:
+        DisplayName: Empty Map
+        Material: MAP
+      Slot21:
+        DisplayName: Book and Quill
+        Material: WRITABLE_BOOK
+      Slot22:
+        DisplayName: Paper
+        Material: PAPER
+      Slot23:
+        DisplayName: Clay Ball
+        Material: CLAY_BALL
+      Slot24:
+        DisplayName: Brick
+        Material: BRICK
+      Slot25:
+        DisplayName: Nether Brick
+        Material: NETHER_BRICK
+      Slot26:
+        DisplayName: Flint
+        Material: FLINT
+      Slot27:
+        DisplayName: Book
+        Material: BOOK
+      Slot28:
+        DisplayName: Iron Horse Armor
+        Material: IRON_HORSE_ARMOR
+      Slot29:
+        DisplayName: Gold Horse Armor
+        Material: GOLDEN_HORSE_ARMOR
+      Slot30:
+        DisplayName: Diamond Horse Armor
+        Material: DIAMOND_HORSE_ARMOR
+      Slot31:
+        DisplayName: Leather Horse Armor
+        Material: LEATHER_HORSE_ARMOR
+      Slot32:
+        DisplayName: Egg
+        Material: EGG
+      Slot33:
+        DisplayName: Snowball
+        Material: SNOWBALL
+      Slot34:
+        DisplayName: Lead
+        Material: LEAD
+      Slot35:
+        DisplayName: Armor Stand
+        Material: ARMOR_STAND
+      Slot36:
+        DisplayName: Shulker Box
+        Material: SHULKER_BOX
+      Slot37:
+        DisplayName: Painting
+        Material: PAINTING
+      Slot38:
+        DisplayName: Item Frame
+        Material: ITEM_FRAME
+      Slot39:
+        DisplayName: Glow Item Frame
+        Material: GLOW_ITEM_FRAME
+      Slot40:
+        DisplayName: Compass
+        Material: COMPASS
+      Slot41:
+        DisplayName: Clock
+        Material: CLOCK
+      Slot42:
+        DisplayName: Spyglass
+        Material: SPYGLASS
+      Slot43:
+        DisplayName: Name Tag
+        Material: NAME_TAG
+      Slot44:
+        DisplayName: Bucket
+        Material: BUCKET
+      Slot45:
+        DisplayName: Jukebox
+        Material: JUKEBOX
+    
+    
+    

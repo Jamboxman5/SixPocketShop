@@ -2,6 +2,7 @@ package net.jahcraft.sixpocketshop.main;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandExecutor;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -66,7 +67,13 @@ public class Main extends JavaPlugin {
 	
 	@Override 
 	public void onDisable() {
-		
+		for (Player p : Bukkit.getOnlinePlayers()) {
+			if (p.getOpenInventory() != null && p.getOpenInventory().getTopInventory().getSize() >= 45) {
+				if (shopStorage.markerStorage.contains(p.getOpenInventory().getItem(45))) {
+					p.closeInventory();
+				}
+			}
+		}
 		Bukkit.getLogger().info("SixPocketShop Unloaded and Disabled!");
 		
 	}
