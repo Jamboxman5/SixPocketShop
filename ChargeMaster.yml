@@ -172,9 +172,6 @@ Prices:
   FEATHER:
     buy: .5
     sell: 0.25
-  EGG:
-    buy: 3
-    sell: 1
   LEATHER:
     buy: 10
     sell: 0.5
@@ -679,7 +676,7 @@ Prices:
   SEAGRASS:
     buy: 10
     sell: 1
-  GRASS:
+  SHORT_GRASS:
     buy: 5
     sell: .5
   FERN:

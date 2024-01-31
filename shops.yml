@@ -1083,7 +1083,7 @@ shops:
         Material: SEAGRASS
       Slot17:
         DisplayName: Grass
-        Material: GRASS
+        Material: SHORT_GRASS
       Slot18:
         DisplayName: Fern
         Material: FERN
