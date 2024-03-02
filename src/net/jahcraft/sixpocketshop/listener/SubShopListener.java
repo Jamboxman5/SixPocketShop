@@ -1,12 +1,18 @@
 package net.jahcraft.sixpocketshop.listener;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.inventory.ClickType;
 import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.event.inventory.InventoryCloseEvent;
+import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.inventory.ItemStack;
 
 import net.jahcraft.sixpocketshop.gui.ShopMain;
@@ -18,8 +24,26 @@ import net.md_5.bungee.api.ChatColor;
 public class SubShopListener implements Listener {
 	
 	private Main plugin;
+	public static List<Player> shoppers;
+
 	public SubShopListener(Main plugin) {
 		this.plugin = plugin;
+		shoppers = new ArrayList<>();
+	}
+	
+	@EventHandler
+	public void onClose(InventoryCloseEvent e) {
+		if (shoppers.contains(e.getPlayer())) shoppers.remove(e.getPlayer()); 
+	}
+	
+	@EventHandler
+	public void onQuit(PlayerQuitEvent e) {
+		if (shoppers.contains(e.getPlayer())) shoppers.remove(e.getPlayer()); 
+	}
+	
+	@EventHandler
+	public void onDeath(PlayerDeathEvent e) {
+		if (shoppers.contains(e.getEntity())) shoppers.remove(e.getEntity()); 
 	}
 		
 	@EventHandler
@@ -27,15 +51,14 @@ public class SubShopListener implements Listener {
 		
 		if (event.getClickedInventory() == null) return;
 		if (event.getClickedInventory().equals(ShopMain.inv)) return;
-		if (event.getClickedInventory().getSize() < 54) return;
-		if (!Main.shopStorage.markerStorage.contains(event.getClickedInventory().getItem(45))) return;
+		if (!shoppers.contains(event.getWhoClicked())) return;
 //		if (event.getClickedInventory().contains(me.Jamboxman5.JahFish.gui.FishExchange.i)) return;
 //		if (event.getClickedInventory().contains(me.Jamboxman5.JahPelts.gui.PeltExchange.i)) return;
 		if (event.getCurrentItem() == null) return;
 		if (event.getCurrentItem().getItemMeta() == null) return;
 		if (event.getCurrentItem().getItemMeta().getDisplayName() == null) return;
 		if (event.getClickedInventory() == null) return;
-		
+			
 		event.setCancelled(true);
 		
 		Player player = (Player) event.getWhoClicked();
@@ -65,7 +88,8 @@ public class SubShopListener implements Listener {
 			if (event.getClickedInventory().getItem(53).getType() != Material.EMERALD_BLOCK) return;
 			Main.shopStorage.pageStorage.put(player, Main.shopStorage.pageStorage.get(player)+1);
 			player.openInventory(SubShop.createInv(player, Main.shopStorage.shopNoStorage.get(player), 0));
-					
+			SubShopListener.shoppers.add(player);
+
 		}
 		
 	}

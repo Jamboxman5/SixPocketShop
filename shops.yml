@@ -535,11 +535,11 @@ shops:
         DisplayName: Warped Stem
         Material: WARPED_STEM
       Slot20:
+        DisplayName: Cherry Log
+        Material: CHERRY_LOG
+      Slot21:
         DisplayName: Sandstone
         Material: SANDSTONE
-      Slot21:
-        DisplayName: White Wool
-        Material: WHITE_WOOL
       Slot22:
         DisplayName: Bricks
         Material: BRICKS

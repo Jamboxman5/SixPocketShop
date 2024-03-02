@@ -36,7 +36,7 @@ public class SubShop {
 			
 		int pageNo;
 		
-		if (p == null) {
+		if (Main.shopStorage.pageStorage.get(p) == null) {
 			pageNo = page;
 		} else {
 			pageNo = Main.shopStorage.pageStorage.get(p);
@@ -130,7 +130,7 @@ public class SubShop {
 
 	private static void assembleItem(Player p, int slot, int shopNo, int page) {
 		int pageNo;
-		if (p == null) {
+		if (Main.shopStorage.pageStorage.get(p) == null) {
 			pageNo = page;
 		} else {
 			pageNo = Main.shopStorage.pageStorage.get(p);

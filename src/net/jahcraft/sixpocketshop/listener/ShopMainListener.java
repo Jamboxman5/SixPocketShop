@@ -20,11 +20,12 @@ public class ShopMainListener implements Listener {
 		
 		if (event.getClickedInventory() == null) return;
 		if (!event.getInventory().equals(inv)) return;
+		event.setCancelled(true);
+		if (!event.getClickedInventory().equals(inv)) return;
 		if (event.getCurrentItem() == null) return;
 		if (event.getCurrentItem().getItemMeta() == null) return;
 		if (event.getCurrentItem().getItemMeta().getDisplayName() == null) return;
 		
-		event.setCancelled(true);
 		
 		Player player = (Player) event.getWhoClicked();
 		
@@ -53,7 +54,8 @@ public class ShopMainListener implements Listener {
 		if (event.getSlot() >= 9 && event.getSlot() <= 17) {
 			Main.shopStorage.pageStorage.put(player, 1);
 			Main.shopStorage.shopNoStorage.put(player, event.getSlot()-8);
-			player.openInventory(SubShop.createInv(player, event.getSlot()-8, 0));
+			player.openInventory(SubShop.createInv(player, event.getSlot()-8, 1));
+			SubShopListener.shoppers.add(player);
 		}		
 		
 	}

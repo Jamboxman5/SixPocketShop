@@ -331,6 +331,9 @@ Prices:
   WARPED_STEM:
     buy: 6
     sell: 3
+  CHERRY_LOG:
+    buy: 6
+    sell: 3
   SANDSTONE:
     buy: 1
     sell: .5
