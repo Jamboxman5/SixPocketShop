@@ -31,7 +31,7 @@ public class Main extends JavaPlugin {
 		
 		if (!setupEconomy()) {
 			
-			Bukkit.getLogger().info("Economy not detected! Disabling Western Hunting!");
+			Bukkit.getLogger().info("Economy not detected! Disabling SixPocketShop!");
 			getServer().getPluginManager().disablePlugin(this);
 			return;
 			
