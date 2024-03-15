@@ -18,6 +18,7 @@ import org.bukkit.inventory.ItemStack;
 import net.jahcraft.sixpocketshop.gui.ShopMain;
 import net.jahcraft.sixpocketshop.gui.SubShop;
 import net.jahcraft.sixpocketshop.main.Main;
+import net.jahcraft.sixpocketshop.util.Colors;
 import net.md_5.bungee.api.ChatColor;
 
 
@@ -216,21 +217,21 @@ public class SubShopListener implements Listener {
 					ChatColor.AQUA + " for " + ChatColor.GREEN + "" + ChatColor.BOLD + "$" + (getSellPrice(player, e.getCurrentItem().getType())*amount) );
 			Bukkit.getLogger().info(player.getName() + " has sold " + amount + " " + e.getCurrentItem().getType().toString().toLowerCase() + " for $" + (getSellPrice(player, e.getCurrentItem().getType()) * amount));
 			
-			if (e.getCurrentItem().getType() == Material.DIAMOND ||
-				e.getCurrentItem().getType() == Material.DIAMOND_BLOCK ||
-				e.getCurrentItem().getType() == Material.EMERALD ||
-				e.getCurrentItem().getType() == Material.EMERALD_BLOCK) {
-				
-//				for (String n : Main.infoStorage.getAdmins()) {
-//					if (Bukkit.getPlayer(n) != null && 
-//						player.getDisplayName() != Bukkit.getServer().getPlayer(n).getDisplayName()) {
-//						Bukkit.getServer().getPlayer(n).sendMessage(ChatColor.RED + player.getDisplayName() + ChatColor.RED + " sold " + amount + " " + e.getCurrentItem().getType().toString().toLowerCase() + 
-//						ChatColor.RED + " for $" + (getSellPrice(player, e.getCurrentItem().getType()) * amount));
-//					}
-//					
-//				}
-				
-			}
+			if (!(item.getType() == Material.DIAMOND ||
+				item.getType() == Material.DIAMOND_BLOCK ||
+				item.getType() == Material.EMERALD ||
+				item.getType() == Material.EMERALD_BLOCK)) return; 
+					
+				for (Player p : Bukkit.getOnlinePlayers()) {
+						
+					if (!p.getUniqueId().equals(player.getUniqueId()) && p.hasPermission("sixpocketshop.notify")) {
+							
+						p.sendMessage(ChatColor.RED + player.getDisplayName() + ChatColor.RED + " liquidated " + amount + " " + Colors.getFormattedName(item.getType()) + 
+							ChatColor.RED + " for $" + (getSellPrice(player, e.getCurrentItem().getType()) * amount));
+							
+					}
+						
+				}
 			
 			
 		} else {
@@ -243,18 +244,18 @@ public class SubShopListener implements Listener {
 	
 	public static double getSellPrice(Player p, Material m) {
 		double multiplier = 1;
-		if (p != null) {
-			if (p.hasPermission("group.default")) multiplier = .8;
-			if (p.hasPermission("group.resident")) multiplier = .9;
-			if (p.hasPermission("group.citizen")) multiplier = 1;
-			if (p.hasPermission("group.veteran")) multiplier = 1.2;
-			if (p.hasPermission("group.decorated")) multiplier = 1.4;
-			if (p.hasPermission("group.nobility")) multiplier = 1.6;
-			if (p.hasPermission("group.scholar")) multiplier = 1.8;
-			if (p.hasPermission("group.hero")) multiplier = 2;
-			if (p.hasPermission("group.admin")) multiplier = 2;
-			if (p.hasPermission("group.owner")) multiplier = 2;
-		}
+//		if (p != null) {
+//			if (p.hasPermission("group.default")) multiplier = .8;
+//			if (p.hasPermission("group.resident")) multiplier = .9;
+//			if (p.hasPermission("group.citizen")) multiplier = 1;
+//			if (p.hasPermission("group.veteran")) multiplier = 1.2;
+//			if (p.hasPermission("group.decorated")) multiplier = 1.4;
+//			if (p.hasPermission("group.nobility")) multiplier = 1.6;
+//			if (p.hasPermission("group.scholar")) multiplier = 1.8;
+//			if (p.hasPermission("group.hero")) multiplier = 2;
+//			if (p.hasPermission("group.admin")) multiplier = 2;
+//			if (p.hasPermission("group.owner")) multiplier = 2;
+//		}
 		
 		double price = Main.data.getPriceConfig().getDouble("Prices." + m.toString() + ".sell");
 		price = Math.round(price*multiplier*100.0)/100.0;
