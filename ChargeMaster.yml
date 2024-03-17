@@ -13,13 +13,13 @@ Prices:
     buy: 15000
     sell: 7500
   NETHERITE_INGOT:
-    buy: 1000
+    buy: 1500
     sell: 500
   ANCIENT_DEBRIS:
-    buy: 260
+    buy: 500
     sell: 130
   NETHERITE_SCRAP:
-    buy: 300
+    buy: 700
     sell: 150   
   IRON_BLOCK:
     buy: 200
@@ -207,13 +207,13 @@ Prices:
     sell: 200
   ZOMBIE_HEAD:
     buy: 30000
-    sell: 15000
+    sell: 1500
   SKELETON_SKULL:
-    buy: 30000
-    sell: 15000
+    buy: 5000
+    sell: 1500
   CREEPER_HEAD:
     buy: 30000
-    sell: 15000
+    sell: 5000
   DRAGON_HEAD:
     buy: 2000
     sell: 1000
@@ -248,11 +248,11 @@ Prices:
     buy: 300
     sell: 150
   TOTEM_OF_UNDYING:
-    buy: 30000
-    sell: 12000
+    buy: 25000
+    sell: 2500
   TRIDENT:
     buy: 20000
-    sell: 10000
+    sell: 100
   DRAGON_BREATH:
     buy: 1000
     sell: 300
@@ -289,7 +289,7 @@ Prices:
   ANDESITE:
     buy: 1
     sell: .5
-  DEEPSLATE:
+  COBBLED_DEEPSLATE:
     buy: 1
     sell: .5
   DIRT:
@@ -843,22 +843,22 @@ Prices:
     sell: 2000
   FLOWER_BANNER_PATTERN:
     buy: 10000
-    sell: 4000
+    sell: 100
   CREEPER_BANNER_PATTERN:
     buy: 10000
-    sell: 4000
+    sell: 1000
   SKULL_BANNER_PATTERN:
     buy: 10000
-    sell: 4000
+    sell: 500
   MOJANG_BANNER_PATTERN:
     buy: 10000
-    sell: 4000
+    sell: 1000
   GLOBE_BANNER_PATTERN:
     buy: 10000
-    sell: 4000
+    sell: 1000
   PIGLIN_BANNER_PATTERN:
     buy: 10000
-    sell: 4000
+    sell: 1000
   MAP:
     buy: 500
     sell: 50
