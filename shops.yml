@@ -273,7 +273,7 @@ shops:
         Material: GHAST_TEAR
       Slot25:
         DisplayName: Scute
-        Material: SCUTE
+        Material: TURTLE_SCUTE
       Slot26:
         DisplayName: Gunpowder
         Material: GUNPOWDER

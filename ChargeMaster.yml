@@ -220,7 +220,7 @@ Prices:
   WITHER_SKELETON_SKULL:
     buy: 3000
     sell: 1500
-  SCUTE:
+  TURTLE_SCUTE:
     buy: 500
     sell: 200
   GUNPOWDER:
